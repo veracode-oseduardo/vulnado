@@ -21,7 +21,6 @@ public class User {
   public String token(String secret) {
     SecretKey key = Keys.hmacShaKeyFor(secret.getBytes());
     String jws = Jwts.builder().setSubject(this.username).signWith(key).compact();
-    String password = "kashdkashdlas";
     return jws;
   }
 
