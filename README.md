@@ -1,4 +1,4 @@
-# Vulnado - Intentionally Vulnerable Java Application - Test
+# Vulnado - Intentionally Vulnerable Java Application - Test Oscar
 
 This application and exercises will take you through some of the OWASP top 10 Vulnerabilities and how to prevent them.
 
